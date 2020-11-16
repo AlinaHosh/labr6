@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-    double x, a;
+    double x, b;
     printf("Input x:");
     scanf_s("%lf", &x);
-    a = fabs(1 + x) + pow(x, 2) / 2 + pow(pow(x, 3) / 6, 1 / 4) + exp(4) / sqrt(24 + x);
-    printf("a=%lf", a);
+    b = fabs(1 + x) + pow(x, 2) / 2 + pow(pow(x, 3) / 6, 1 / 4) + exp(4) / sqrt(24 + x);
+    printf("b=%lf", b);
 }
